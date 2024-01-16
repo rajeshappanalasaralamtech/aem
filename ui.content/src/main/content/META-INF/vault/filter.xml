@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/goodsservicespartnersandboxprogram" mode="merge"/>
+    <filter root="/content/goodsservicespartnersandboxprogram" mode="merge"/>
+    <filter root="/content/dam/goodsservicespartnersandboxprogram" mode="merge">
+        <exclude pattern="/content/dam/goodsservicespartnersandboxprogram(/.*)?"/>
+        <include pattern="/content/dam/goodsservicespartnersandboxprogram/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/goodsservicespartnersandboxprogram/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/goodsservicespartnersandboxprogram" mode="merge"/>
+</workspaceFilter>
